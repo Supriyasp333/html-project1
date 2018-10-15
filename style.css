@@ -1,0 +1,32 @@
+
+
+body {
+	text-align:center;
+	background-color: black;
+	color: white;
+	font-family: helvetica; 
+}
+
+h1{
+	font-size:40px;
+}
+
+img {
+	width: 200px;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+}
+
+input {
+	border:1;
+	font-size: 15px;
+	padding:10px;
+	}
+
+input[type="submit"] {
+	border:1;
+	font-size: 15px;
+	padding:10px;
+	background-color: red;
+}

@@ -1,7 +1,7 @@
 
 
 body {
-	padding:1px;	
+	padding:4px;	
 	text-align:center;
 	background-image: url("bg3.jpg");
 	color: white;
@@ -19,7 +19,7 @@ background-size: cover;
 nav {
 	text-align: center;
 padding:20px;
-margin: 40px 20px 1px 20px;
+margin: 0px 20px 1px 20px;
 background-color:black;
 background-size: cover;
 }
@@ -43,15 +43,15 @@ input {
 	border:1;
 	width: 350px;
 	font-size: 15px;
-	padding:10px;
-	margin: 0px 10px 0px 10px  ;
+	padding:1px;
+	margin: 0px 0px 10px 0px  ;
 	}
 
 input[type="submit"] {
 	border:1;
 	width: 80px;
 	font-size: 15px;
-	padding:10px;
+	padding: 4px;
 	background-color: red;
 }
 

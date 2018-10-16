@@ -19,7 +19,7 @@ background-size: cover;
 nav {
 	text-align: center;
 padding:20px;
-margin: 0px 20px 1px 20px;
+margin: 20px 20px 1px 20px;
 background-color:black;
 background-size: cover;
 }
@@ -57,6 +57,7 @@ input[type="submit"] {
 
 ul{
 	padding:10px;
+	background-color: 	#cc8624;
 }
 
 li{
@@ -65,6 +66,7 @@ li{
 }
 
 a{
+	color: white;
 	font-size: 30px
 }
 

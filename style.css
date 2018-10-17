@@ -87,3 +87,10 @@ a{
         width: 100%;
     }
 }
+
+button {
+	background-color: black;
+	color:red;
+	width: 60px;
+	padding:4px;
+}

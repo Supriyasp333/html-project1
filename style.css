@@ -24,6 +24,26 @@ background-color:black;
 background-size: cover;
 }
 
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+}
+
 h1{
 	font-size:70px;
 }
@@ -94,3 +114,5 @@ button {
 	width: 60px;
 	padding:4px;
 }
+
+

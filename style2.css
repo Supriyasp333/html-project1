@@ -1,0 +1,224 @@
+
+
+body {
+	padding:4px;	
+	text-align:center;
+	background-color: white;
+	color: black;
+	font-family: helvetica. san-serif; 
+	max-width: 600px;
+	margin: 0 auto;
+	font-size: 34;
+}
+
+header {
+	text-align: center;
+padding:10px;
+margin: 40px 20px 0px 20px;
+background-color:black;
+background-size: cover;
+}
+
+nav {
+	text-align: center;
+padding:20px;
+margin: 20px 20px 0px 20px;
+background-color:black;
+background-size: cover;
+}
+
+h1{
+	font-size:70px;
+}
+
+div{
+	 height: 250px;
+	 color: #B8F80C;
+	 margin:10px 0px 10px 0px;
+	 background-size: cover;
+	 font-style: italic;
+	 border-radius:12px;
+	 position: relative;
+}
+
+p{
+	font-size: 25px;
+	background: rgba(0,0,0,0.3);
+	padding:20 px;
+	margin: 10px 10px 10px 10px; 
+	line-height: 30px;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+}
+
+
+
+.first {
+	background-image: url("gulamb.jpg");
+	padding: 20px;
+		 font-size: 1;
+
+
+}
+
+.second {
+	background-image: url("gajar.jpg");
+		padding:20px;
+
+}
+
+.third {
+	background-image: url("cham.jpeg");
+		padding:20px;
+
+}
+
+.four {
+	background-image: url("ladoo.jpg");
+		padding:20px;
+
+}
+
+.five {
+	background-image: url("ras.jpg");
+		padding:20px;
+
+}
+.six {
+	background-image: url("modak.jpg");
+		padding:20px;
+
+}
+.seven {
+	background-image: url("jal5.jpg");
+		padding:20px;
+
+}
+
+.eight {
+	background-image: url("rasgulla.jpg");
+		padding:20px;
+
+}
+
+
+
+img {
+	width: 200px;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+}
+
+input {
+	border:1;
+	width: 350px;
+	font-size: 15px;
+	padding:1px;
+	margin: 0px 0px 10px 0px  ;
+	}
+
+input[type="submit"] {
+	border:1;
+	width: 80px;
+	font-size: 15px;
+	padding: 4px;
+	background-color: red;
+}
+
+ul{
+	padding:10px;
+	background-color: 	#cc8624;
+}
+
+li{
+	display: inline;
+	padding: 0px 10px 0px 10px;
+}
+
+a{
+	color: white;
+	font-size: 30px
+}
+
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+
+button {
+	background-color: black;
+	color:red;
+	width: 60px;
+	padding:4px;
+}
+
+
+
+@keyframes bounce {
+	0%, 10%, 20%, 50%, 80% {
+		-webkit-transform: translateY(0);
+		-ms-transform:     translateY(0);
+		transform:         translateY(0)
+	}
+	40% {
+		-webkit-transform: translateY(-30px);
+		-ms-transform:     translateY(-30px);
+		transform:         translateY(-30px)
+	}
+	60% {
+		-webkit-transform: translateY(-15px);
+		-ms-transform:     translateY(-15px);
+		transform:         translateY(-15px)
+	}
+}
+span:hover {
+  cursor: pointer;
+  animation-name: bounce;
+  -moz-animation-name: bounce;
+}
+
+span {  
+  position: absolute;
+   
+  text-transform: uppercase;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}

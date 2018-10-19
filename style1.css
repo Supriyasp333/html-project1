@@ -22,7 +22,7 @@ background-size: cover;
 nav {
 	text-align: center;
 padding:20px;
-margin: 20px 20px 1px 20px;
+margin: 20px 20px 0px 20px;
 background-color:black;
 background-size: cover;
 }
@@ -31,22 +31,30 @@ h1{
 	font-size:70px;
 }
 
-p{
-	font-size:20px;
-}
-
-
 div{
-	 height: 300px;
+	 height: 250px;
 	 color: #B8F80C;
 	 margin:10px 0px 10px 0px;
 	 background-size: cover;
 	 font-style: italic;
+	 border-radius:12px;
+	 position: relative;
+}
+
+p{
+	font-size: 25px;
+	background: rgba(0,0,0,0.3);
+	padding:20 px;
+	margin: 10px 10px 10px 10px; 
+	line-height: 30px;
 }
 
 
+
+
+
 .first {
-	background-image: url("biryani.jpg");
+	background-image: url("biryani1.jpg");
 	padding: 20px;
 		 font-size: 1;
 
@@ -54,20 +62,20 @@ div{
 }
 
 .second {
-	background-image: url("chicken-butter.jpg");
+	background-image: url("butter3.jpg");
 		padding:20px;
 
 }
 
 .third {
-	background-image: url("chaat.jpg");
-		padding:10px;
+	background-image: url("chaat5.jpg");
+		padding:20px;
 
 }
 
 .four {
-	background-image: url("channa.jpg");
-		padding:0.1px;
+	background-image: url("chann2.jpg");
+		padding:20px;
 
 }
 

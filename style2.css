@@ -80,13 +80,13 @@ a:active {
 }
 
 .second {
-	background-image: url("Modak.jpg");
+	background-image: url("gajar.jpg");
 		padding:20px;
 
 }
 
 .third {
-	background-image: url("gajar.jpg");
+	background-image: url("cham.jpeg");
 		padding:20px;
 
 }
@@ -98,23 +98,23 @@ a:active {
 }
 
 .five {
-	background-image: url("cham.jpeg");
-		padding:20px;
-
-}
-.six {
 	background-image: url("ras.jpg");
 		padding:20px;
 
 }
+.six {
+	background-image: url("Modak.jpg");
+		padding:20px;
+
+}
 .seven {
-	background-image: url("rasgulla.jpg");
+	background-image: url("jal5.jpg");
 		padding:20px;
 
 }
 
 .eight {
-	background-image: url("jal5.jpg");
+	background-image: url("rasgulla.jpg");
 		padding:20px;
 
 }

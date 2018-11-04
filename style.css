@@ -25,6 +25,8 @@ background-size: cover;
 font-size: 25px;
 font-family: Spicy Rice;
 font-style: italic;
+    padding-bottom: 65px;
+
 
 
 }
@@ -110,6 +112,14 @@ a{
 }
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    p {
+        color:black;
+        font-size: 25px;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 400px) {
     .topnav a {
         float: none;
@@ -120,7 +130,7 @@ a{
 button {
 	background-color: black;
 	color:red;
-	width: 60px;
+	width: 65px;
 	padding:4px;
 }
 

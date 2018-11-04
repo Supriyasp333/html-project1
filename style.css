@@ -18,10 +18,15 @@ background-size: cover;
 
 nav {
 	text-align: center;
-padding:20px;
-margin: 20px 20px 1px 20px;
+padding:30px;
+margin: 10px 10px 1px 20px;
 background-color:black;
 background-size: cover;
+font-size: 25px;
+font-family: Spicy Rice;
+font-style: italic;
+
+
 }
 
 /* unvisited link */
@@ -66,7 +71,6 @@ input {
 	padding:1px;
 	margin: 0px 0px 10px 0px  ;
 	color:black;
-
 	}
 
 input[type="submit"] {
@@ -85,7 +89,9 @@ ul{
 li{
 	display: inline;
 	padding: 0px 10px 0px 10px;
-	font-family: Spicy Rice;
+
+	
+
 }
 
 a{

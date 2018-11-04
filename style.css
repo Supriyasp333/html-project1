@@ -65,6 +65,8 @@ input {
 	font-size: 15px;
 	padding:1px;
 	margin: 0px 0px 10px 0px  ;
+	color:black;
+
 	}
 
 input[type="submit"] {
